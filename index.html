@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aldemar Balcazar — Instructional Designer</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Hoja de estilos principal -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- =====================================================
+     NAVBAR
+     ===================================================== -->
+<nav class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#hero" class="nav-logo">Skills<span> Lab for Learning</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#portfolio">Portafolio</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- Menú móvil -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about">Sobre mí</a>
+  <a href="#portfolio">Portafolio</a>
+  <a href="#contact">Contacto</a>
+</div>
+
+
+<!-- =====================================================
+     HERO
+     ===================================================== -->
+<section class="hero" id="hero">
+  <div>
+
+    <!--
+      FOTO DE PERFIL
+      Opción A (recomendada): archivo local
+        <img src="img/aldemar.png" alt="Aldemar Balcazar">
+      Opción B: URL externa
+        <img src="https://..." alt="Aldemar Balcazar">
+    -->
+    <div class="hero-avatar">
+      <img src="img/aldemar.png" alt="Aldemar Balcazar">
+    </div>
+
+    <h1 class="hero-name">Aldemar Balcazar</h1>
+
+    <div class="hero-role-wrap">
+      <p class="hero-role">Instructional Designer</p>
+    </div>
+
+    <p class="hero-desc">
+      Diseño experiencias de aprendizaje escalables y personalizadas,
+      potenciadas con IA.
+    </p>
+
+    <div class="hero-btns">
+      <a href="#portfolio" class="btn btn-primary">Ver portafolio</a>
+      <a href="#contact"   class="btn btn-outline">Contáctame</a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =====================================================
+     SOBRE MÍ
+     ===================================================== -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="about-grid fade-in">
+
+      <div class="about-text">
+        <p class="section-label">Sobre mí</p>
+        <h2 class="section-title">Hola, soy<br>Aldemar Balcazar</h2>
+        <div class="section-line"></div>
+        <p>
+          Psicólogo y Diseñador Instruccional. Diseño experiencias de aprendizaje
+          escalables y personalizadas, potenciadas por la ciencia del comportamiento
+          y la IA.
+        </p>
+        <p>
+          Me especializo en crear soluciones educativas que combinan rigor
+          pedagógico con tecnología de vanguardia, ayudando a organizaciones
+          a transformar la manera en que sus equipos aprenden y crecen.
+        </p>
+      </div>
+
+      <!--
+        HABILIDADES
+        Para agregar una nueva habilidad: duplica un .skill-card y edita su contenido.
+      -->
+      <div>
+        <div class="skills-grid">
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <h4>Diseño Instruccional</h4>
+            <p>Análisis de necesidades, objetivos de aprendizaje y diseño curricular basado en evidencia.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <h4>Articulate / Moodle</h4>
+            <p>Cursos SCORM con Storyline y Rise, integrados en LMS Moodle para formación corporativa.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h4>Gamificación</h4>
+            <p>Mecánicas de juego y narrativas que aumentan el engagement y la retención del conocimiento.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+            </div>
+            <h4>Video &amp; Canva / Figma</h4>
+            <p>Producción audiovisual y diseño visual de materiales educativos con herramientas creativas.</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- =====================================================
+     PROCESO ADDIE
+     ===================================================== -->
+<section class="addie-section fade-in" id="process">
+  <div class="container">
+    <p class="section-label">Mi proceso</p>
+    <h2 class="section-title">Metodología de trabajo</h2>
+    <div class="section-line"></div>
+
+    <div class="addie-steps">
+      <div class="addie-step">
+        <div class="addie-step-icon">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </div>
+        <span class="addie-step-name">Analizar</span>
+      </div>
+      <div class="addie-arrow">→</div>
+
+      <div class="addie-step">
+        <div class="addie-step-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        </div>
+        <span class="addie-step-name">Diseñar</span>
+      </div>
+      <div class="addie-arrow">→</div>
+
+      <div class="addie-step">
+        <div class="addie-step-icon">
+          <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <span class="addie-step-name">Desarrollar</span>
+      </div>
+      <div class="addie-arrow">→</div>
+
+      <div class="addie-step">
+        <div class="addie-step-icon">
+          <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <span class="addie-step-name">Implementar</span>
+      </div>
+      <div class="addie-arrow">→</div>
+
+      <div class="addie-step">
+        <div class="addie-step-icon">
+          <svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+        </div>
+        <span class="addie-step-name">Evaluar</span>
+      </div>
+      <div class="addie-arrow">→</div>
+
+      <div class="addie-step">
+        <div class="addie-step-icon">
+          <svg viewBox="0 0 24 24"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.12"/></svg>
+        </div>
+        <span class="addie-step-name">Repetir</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- =====================================================
+     NÚMEROS DESTACADOS
+     =====================================================
+     Para agregar una cifra: duplica un .number-item
+     y cambia data-target con el valor deseado.
+     Recuerda actualizar grid-template-columns en styles.css
+     si pasas de 3 a 4 columnas.
+     ===================================================== -->
+<section class="numbers-section fade-in" id="numbers">
+  <div class="container">
+    <div class="numbers-grid">
+
+      <div class="number-item">
+        <div class="number-value">
+          <span class="count" data-target="120">0</span>
+          <span class="number-suffix">+</span>
+        </div>
+        <p class="number-label">Learners impactados</p>
+      </div>
+
+      <div class="number-item">
+        <div class="number-value">
+          <span class="count" data-target="6">0</span>
+          <span class="number-suffix">+</span>
+        </div>
+        <p class="number-label">Cursos desarrollados</p>
+      </div>
+
+      <div class="number-item">
+        <div class="number-value">
+          <span class="count" data-target="5">0</span>
+        </div>
+        <p class="number-label">Años de experiencia</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- =====================================================
+     PORTAFOLIO
+     =====================================================
+     Para agregar un proyecto:
+     1. Duplica un bloque .portfolio-card
+     2. Cambia data-category (elearning | gamificacion | videos | ...)
+     3. Cambia la clase de imagen (t1–t6) o pon <img src="img/proyecto.jpg">
+     4. Actualiza el badge, título y href del enlace
+     ===================================================== -->
+<section class="section" id="portfolio">
+  <div class="container">
+    <p class="section-label">Mi trabajo</p>
+    <h2 class="section-title fade-in">Portafolio de proyectos</h2>
+    <div class="section-line"></div>
+
+    <!-- Filtros — agrega un botón por cada categoría nueva -->
+    <div class="portfolio-filters fade-in">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="elearning">eLearning</button>
+      <button class="filter-btn" data-filter="gamificacion">Gamificación</button>
+      <button class="filter-btn" data-filter="videos">Videos</button>
+    </div>
+
+    <div class="portfolio-grid" id="portfolioGrid">
+
+      <!-- PROYECTO 1 -->
+      <div class="portfolio-card" data-category="elearning">
+        <div class="card-img t1">
+          <!-- Para imagen real: <img src="img/proyecto1.jpg" alt="Emotional Intelligence"> -->
+          <svg viewBox="0 0 48 48" fill="none" stroke="#0a6e5e" stroke-width="2" stroke-linecap="round">
+            <rect x="8" y="8" width="32" height="24" rx="3"/>
+            <line x1="16" y1="38" x2="32" y2="38"/>
+            <line x1="24" y1="32" x2="24" y2="38"/>
+          </svg>
+          <div class="card-overlay">
+            <!-- ✏️ Reemplaza # con el enlace de Google Drive -->
+            <a href="#" target="_blank">Ver proyecto</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-badge">eLearning</span>
+          <p class="card-title">Emotional Intelligence for Life</p>
+        </div>
+      </div>
+
+      <!-- PROYECTO 2 -->
+      <div class="portfolio-card" data-category="gamificacion">
+        <div class="card-img t2">
+          <svg viewBox="0 0 48 48" fill="none" stroke="#185fa5" stroke-width="2" stroke-linecap="round">
+            <circle cx="24" cy="24" r="16"/>
+            <polygon points="24,14 28,22 36,23 30,29 32,37 24,33 16,37 18,29 12,23 20,22"/>
+          </svg>
+          <div class="card-overlay">
+            <a href="#" target="_blank">Ver proyecto</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-badge">Gamificación</span>
+          <p class="card-title">Bases Estadísticas para la Práctica Psicológica</p>
+        </div>
+      </div>
+
+      <!-- PROYECTO 3 -->
+      <div class="portfolio-card" data-category="videos">
+        <div class="card-img t3">
+          <svg viewBox="0 0 48 48" fill="none" stroke="#ba7517" stroke-width="2" stroke-linecap="round">
+            <rect x="6" y="10" width="36" height="28" rx="3"/>
+            <polygon points="20,18 32,24 20,30"/>
+          </svg>
+          <div class="card-overlay">
+            <a href="#" target="_blank">Ver proyecto</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-badge">Videos</span>
+          <p class="card-title">TechTalk: Comunicación Efectiva para Equipos de IT</p>
+        </div>
+      </div>
+
+      <!--
+        PLANTILLA para nuevo proyecto (descomenta y edita):
+
+        <div class="portfolio-card" data-category="elearning">
+          <div class="card-img t4">
+            <img src="img/proyecto4.jpg" alt="Nombre del proyecto">
+            <div class="card-overlay">
+              <a href="https://drive.google.com/..." target="_blank">Ver proyecto</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <span class="card-badge">eLearning</span>
+            <p class="card-title">Nombre del Proyecto 4</p>
+          </div>
+        </div>
+      -->
+
+    </div>
+  </div>
+</section>
+
+
+<!-- =====================================================
+     CONTACTO
+     ===================================================== -->
+<section class="section" id="contact">
+  <div class="container">
+    <p class="section-label">Hablemos</p>
+    <h2 class="section-title fade-in">¿Tienes un proyecto en mente?</h2>
+    <div class="section-line"></div>
+
+    <div class="contact-grid fade-in">
+
+      <!-- Formulario -->
+      <div>
+        <form id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" placeholder="Tu nombre completo" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="tu@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%">Enviar mensaje</button>
+        </form>
+        <p id="formMsg" style="display:none; margin-top:16px; font-size:14px; color:#0a6e5e; font-weight:600;">
+          ¡Mensaje enviado! Te responderé pronto.
+        </p>
+      </div>
+
+      <!-- Info de contacto -->
+      <div class="contact-info">
+        <h4>Información de contacto</h4>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div>
+            <p class="contact-item-label">Email</p>
+            <p class="contact-item-value">
+              <a href="mailto:aldemarbalcazar9766@gmail.com">aldemarbalcazar9766@gmail.com</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </div>
+          <div>
+            <p class="contact-item-label">LinkedIn</p>
+            <p class="contact-item-value">
+              <a href="https://linkedin.com/in/aldemar-balcazar-350232312" target="_blank">
+                linkedin.com/in/aldemar-balcazar
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <p class="contact-item-label">Ubicación</p>
+            <p class="contact-item-value">Bogotá, Colombia</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+<footer>
+  <div class="container">
+    <p class="footer-name">Aldemar <span>Balcazar</span></p>
+    <div class="footer-links">
+      <a href="mailto:aldemarbalcazar9766@gmail.com">
+        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Email
+      </a>
+      <a href="https://linkedin.com/in/aldemar-balcazar-350232312" target="_blank">
+        <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        LinkedIn
+      </a>
+    </div>
+    <p class="footer-copy">
+      © <span id="year"></span> Aldemar Balcazar · Instructional Designer
+    </p>
+  </div>
+</footer>
+
+
+<!-- Script principal -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
